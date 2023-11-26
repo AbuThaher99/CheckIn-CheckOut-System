@@ -1,0 +1,130 @@
+.button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #fff;
+    -fx-min-width: 8.5em;
+    -fx-min-height: 2.9em;
+    -fx-border-color: #3654ff;
+    -fx-border-width: 0.2em;
+    -fx-border-radius: 11px;
+    -fx-text-alignment: right;
+    -fx-alignment: center;
+    -fx-background-radius: 11px;
+    -fx-cursor: hand;
+    -fx-padding: 0.8em 2em 1em 0.8em;
+    -fx-transition: all 0.6s ease;
+}
+
+.button:hover {
+    -fx-background-color: #3654ff;
+}
+
+.button .ImageView {
+    -fx-graphic-text-gap: 0.3em;
+}
+
+.button:hover .ImageView {
+    -fx-translate-x: 5;
+}
+
+.text {
+    -fx-padding: 0 1.5em;
+}
+
+.text-field {
+    -fx-text-fill: #8707ff; /* Text color */
+    -fx-border-color: #8707ff; /* Border color */
+    -fx-border-width: 2px; /* Border width */
+    -fx-background-color: transparent; /* Background color */
+    -fx-background-radius: 10px; /* Border radius */
+    -fx-padding: 10px 25px; /* Padding */
+    -fx-max-width: 190px; /* Maximum width */
+}
+
+/* Styling for the text input field when it's active (focused) */
+.text-field:focused {
+    -fx-box-border: transparent transparent #8707ff transparent; /* Box shadow when active */
+    -fx-box-border-insets: 2px; /* Box shadow insets */
+    -fx-box-border-radius: 10px; /* Box shadow radius */
+}
+
+
+
+
+
+
+.table-row-cell:selected {
+    -fx-background-color: black; /* Change to your desired color */
+    -fx-text-background-color: red; /* Text color for selected cell, change if needed */
+}
+
+/* Rest of your existing CSS for the TableView */
+.table-view .column-header-background .filler {
+    -fx-background-color: transparent;
+}
+
+.table-view .corner {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(to bottom, #1dbbdd44, #93f9b944);
+    -fx-background-radius: 7px 7px 0px 0px;
+    -fx-background-insets: 0 11px 0 0;
+    -fx-padding: 0 0 5px 0;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell{
+    -fx-border-color: transparent;
+    -fx-padding: 2 0 2 10px;
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #93f9b911;
+    -fx-text-background-color: red;
+}
+
+.table-row-cell:odd{
+    -fx-background-color: #93f9b911;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.table-row-cell:even{
+    -fx-background-color: #1dbbdd11;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.table-view .virtual-flow .scroll-bar:vertical,
+.table-view .virtual-flow .scroll-bar:vertical .track,
+.table-view .virtual-flow .scroll-bar:vertical .track-background,
+.table-view .virtual-flow .scroll-bar:horizontal,
+.table-view .virtual-flow .scroll-bar:horizontal .track,
+.table-view .virtual-flow .scroll-bar:horizontal .track-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .virtual-flow .scroll-bar .increment-button,
+.table-view .virtual-flow .scroll-bar .decrement-button {
+    -fx-opacity: 0;
+    -fx-padding: 2;
+}
+
+table-view .virtual-flow .scroll-bar:vertical .thumb{
+    -fx-background-color:  linear-gradient(to bottom, #1dbbdd44, #93f9b944);
+}
+
+.table-view .virtual-flow .scroll-bar:horizontal .thumb {
+    -fx-background-color:  linear-gradient(to right, #1dbbdd44, #93f9b944);
+}
+
+.table-row-cell-highlighted {
+    -fx-background-color: #81c483;
+    -fx-background-radius: 15px;
+}
+
+
